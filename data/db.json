@@ -1,10 +1,14 @@
-
 {
-    "notes": [
-      {
-        "title": "example",
-        "text": "hello",
-        "id": "0"
-      }
-    ]
-  }
+  "notes": [
+    {
+      "title": "example",
+      "text": "hello",
+      "id": "0"
+    },
+    {
+      "title": "i think",
+      "text": "were done",
+      "id": "1"
+    }
+  ]
+}
