@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const { verifyNotes, createNotes } = require('../../lib/routeFunctions');
-const { notes } = require('./db/db.json');
+const { verifyNotes, createNotes } = require('../../lib/noteFunctions');
+const { notes } = require('../../data/db.json');
 
 router.get("/notes", (req, res) => {
     let results = notes;
@@ -13,7 +13,7 @@ router.post("/notes", (req, res) => {
     req.body.id = notes.length.toString();
 
     if(!verifyNotes(req.body)) {
-        res.status(400).send('Your note is not corret formatted. Please fix it :)');
+        res.status(400).send('Your note is not correctly formatted. Please fix it :)');
     } else {
         const note = createNotes(req.body, notes);
         res.json(note);
@@ -22,4 +22,4 @@ router.post("/notes", (req, res) => {
 
 
 
-// module.exports = router;
+ module.exports = router;
