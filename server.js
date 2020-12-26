@@ -1,7 +1,7 @@
 const express = require('express');
-const app = express();
 const apiRoute = require('./routes/apiRoutes/index');
 const htmlRoute = require('./routes/htmlRoutes/index');
+const app = express();
 const PORT = process.env.PORT || 3001;
 
     // parse incoming string or array data
