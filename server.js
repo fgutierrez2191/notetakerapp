@@ -6,14 +6,16 @@ const PORT = process.env.PORT || 3001;
 
     // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
+
     // parse incoming JSON data
 app.use(express.json());
-  
+
+//use public files
+app.use(express.static('public'));  
 app.use("/api", apiRoute);    
 app.use('/', htmlRoute);
 
-//use public files
-app.use(express.static('public'));
+
 
 //listener
 app.listen(PORT, () => {
