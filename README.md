@@ -8,7 +8,7 @@
   The notetaker is a fullstack app that is used to take notes, save and delete them. 
 
   ## Installation
-  This application does not not to be installed. Simply use the link [(https://git.heroku.com/notetakerapp2point0.git)] to view the deployed application.
+  This application does not not to be installed. Simply use the link [(https://notetakerapp2point0.herokuapp.com/)] to view the deployed application.
 
   ## Contributors
   Felix Gutierrez
