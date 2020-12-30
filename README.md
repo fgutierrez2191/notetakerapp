@@ -25,4 +25,4 @@
   Github:[(https://github.com/fgutierrez2191)]
 
   <h2 id= "screenshots">Screenshots</h2>
-<img src="notetakerscreenshot.png" alt="screenshot of the notetaker">
+<img src="images/notetakerscreenshot.png" alt="screenshot of the notetaker">
